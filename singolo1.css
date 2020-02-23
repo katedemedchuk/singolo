@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+}
+
+.general-page{
+    margin: auto;
+    width:1020px;
+}
+
+ .header-grid{
+    background-color:#2d303a;
+    height: 90px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+} 
+
+.singolo-logo{
+    font-size: 25px;
+    margin-left: 40px;    
+    letter-spacing: normal;
+    color:#f1f1f2;
+    font-family:"Lato-Bold";
+}
+
+span{
+    color:#f06c64;
+}
+
+ .header-list a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Lato-Bold";
+    cursor: pointer;
+    color:#f1f1f2;
+} 
+
+ul {
+    list-style: none;  
+}
+
+nav ul { 
+    margin: 0;
+    padding: 0;
+    padding-left:70px;
+    display: grid;
+    grid-template-columns: 66px 80px 95px 72px 98px;
+}
+
+ul li {
+   padding:10px;
+   position: relative;
+}
+
+a:hover { 
+    text-decoration:none;
+    color:#f06c64;
+ }
+
+ li:not(:first-child)::before{
+     content:"";
+     width:2px;
+     height:2px;
+     background-color: #fff;
+     position: absolute;
+     left: -5px;
+     bottom:16px;
+ }
+
+.header-footer{
+    background-color:#323746;
+    width: 1020px;
+    height: 6px;
+    background: url('./assets/Header Bottom-ex.png');
+}
+
+.slider{
+    width:1020px;
+    height: 592px;
+    display: grid;
+    grid-template-columns: 110px 1fr 1fr 110px;
+    align-items: center;
+}
+
+.main{
+    background-color:#f06c64; 
+    min-height: 550px;
+}
+
+.phones{
+    justify-self: start;
+    position: relative;
+}
+
+
+.chev{
+    justify-self: center;
+    opacity: 100%;
+} 
+
+.chev:hover{
+    cursor: pointer;
+}
+
+.picForVertical{
+    position: absolute;
+    top: 64px;
+    left: 14px;
+    z-index: 11;
+    width: 189px;
+    height: 333px;
+    background-image: url('./assets/screen vertical.png') ;
+    background-repeat: no-repeat;
+}
+
+.picForHorizontal{
+    position: absolute;
+    top: 14px;
+    left: 60px;
+    z-index: 11;
+    width: 333px;
+    height: 188px;
+    background-image: url('./assets/screen horizontal.png') ;
+    background-repeat: no-repeat;
+}
+
+.chevRight{
+    width: 110px
+   
+}  
+
+.main-footer{
+    width: 1020px;
+    height:7px;
+    background: url('./assets/Bg Bottom-ex.png');
+}
+
+footer{
+    height: 500px;
+    color: #666d89; 
+    background-color: #f2f2f2;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+
+ .width-940{
+    width: 940px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Lato-Regular";
+    color: rgb(118, 126, 158);
+    line-height: 1.667;   
+}  
+
+.width{
+    width: 320px;
+}
+
+.float{
+    float:left;
+}
+
+.margin{
+    margin-left: 80px;
+    width: 220px;
+}
+
+.margin div{
+    font-size:12px;
+    font-family: "Lato-Regular";
+    color: rgb(118, 126, 158);
+    line-height: 1.797;
+}
+
+.margin p{
+    font-size:18px;
+    margin-top:0;
+    font-weight:bold;
+    margin-bottom:15px;
+    color: rgb(102, 109, 137);    
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    width:940px;
+    margin: 50px auto 0;
+    font-family: "Lato-Regular";
+    font-size:12px;
+}
+
+.services-container p{
+    font-weight: bold;
+    font-family: "Lato-Black"
+}
+.width-3{
+    width:300px;
+}
+
+h2{
+    margin:0 0 10px 10px;
+    padding: 45px 0 7px 27px;
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Lato-Black";
+    color: rgb(102, 109, 137);    
+}
