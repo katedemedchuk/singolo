@@ -17,3 +17,8 @@
     font-family: "Lato-Black";
     src: url("./assets/fonts/Lato-Black.ttf") format("truetype");
 } 
+
+@font-face{
+    font-family: "Myriad Pro";
+    src: url("./assets/fonts/8143.otf") format("opentype");
+} 
