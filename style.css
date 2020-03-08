@@ -361,5 +361,146 @@ span{
     background-color: #ffffff;
     height:5px;
 }
-
 /* ABOUT US SECTION END */
+/* FORM SECTION START */
+.form-section{
+    background-color:#f06c64; 
+    color:#f0d8d9;
+    padding-left:40px;
+    padding-right:40px;   
+    padding-top:60px; 
+}
+ 
+.form-section h1{
+    font-family: "Lato-Black";    
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom:20px;
+    margin-top:0;    
+}
+
+.preForm{
+    padding-bottom: 27px;
+    font-family: "Lato-Light";
+    font-size:18px;
+    margin-top:0;
+    line-height: 27px;
+    word-spacing: 1px;
+    margin-bottom:22px;
+
+}
+
+.formContacts{
+    margin-top:10px;
+    display:flex;
+    flex-wrap: nowrap;
+    align-self: auto;
+    justify-content: space-evenly;
+    }
+
+.inputs{
+    background-color:#d6564f;
+    margin-bottom:17px;
+    font-size: "Lato-Light";
+    font-size:12px;
+    width:619px;
+    border-radius: 5px;
+    height:34px;
+    text-indent: 12px;
+    color:#fff;
+    border-color:#d6564f;
+    border:0;
+}
+
+textarea{   
+    background-color:#d6564f;
+    border-radius:5px;
+    text-indent:12px; 
+    color:#f48c8f;
+    margin-bottom: 16px;
+    border-color:#d6564f;
+    
+}
+ 
+input::placeholder {
+    color:#f48c8f;
+}
+ 
+textarea::placeholder {
+    color:#f48c8f;
+}
+ 
+.inputSub{
+    background-color:#d6564f;
+    margin-bottom:29px;
+    font-size: "Lato-Regular";
+    font-size:12px;
+    border-radius: 5px;
+    text-align:center; 
+    color:#f48c8f;
+    border-color:#d6564f;
+    padding: 1px 6px;
+ }
+ 
+.rightContacts h3{
+    font-family:"Lato-Black";
+    font-size:18px;
+    padding-bottom:0;
+    margin-bottom:0px;
+    margin-top:-2px;
+}
+.rightContacts p {
+    margin-top: 10px;
+}
+
+.rightContacts{
+    margin-top:0;
+    padding-top:0;
+    padding-left:23px;
+    padding-right: 0;    
+    font-size: 12px;
+    font-family:"Myriad Pro";
+    line-height: 21px;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+}
+
+.iconsContacts{
+    margin-right: 14px;
+    margin-top: 12px;
+    line-height: 4px;
+}
+.LineAfterForm{
+    width:1020px;
+    height: 6px;
+    background-color:#ea676b;
+}
+/* FORM SECTION END */
+/* FOOTER START */
+footer{
+    display:flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    background-color:#2d303a; 
+    color:#3c404f;
+    width:1020px;
+}
+
+.footerIcons{
+    padding: 21px 31px 0px 0px;
+}
+
+.icons{
+    width: 31px;
+    height: 31px;
+    margin-right:6px;
+    color: #666d89;
+}
+
+.footerCopy{
+    color: #666d89;
+    font-family: "Lato-Light";
+    font-size: 12px;
+    padding: 32px 38px 27px 44px;
+}
+/* FOOTER END */
