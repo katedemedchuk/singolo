@@ -416,10 +416,11 @@ textarea{
     background-color:#d6564f;
     border-radius:5px;
     text-indent:12px; 
-    color:#f48c8f;
+    color:white;
     margin-bottom: 16px;
     border-color:#d6564f;
-    
+    max-width:700px;
+    max-height:400px;
 }
  
 input::placeholder {
@@ -470,6 +471,12 @@ textarea::placeholder {
     margin-top: 12px;
     line-height: 4px;
 }
+
+.iconsContacts a{
+    color:#f0d8d9;
+    text-decoration: none;
+}
+
 .LineAfterForm{
     width:1020px;
     height: 6px;
