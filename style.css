@@ -62,7 +62,7 @@ span{
     content:"";
     width:2px;
     height:2px;
-    background-color: #fff;
+    background-color: black;
     position: absolute;
     left: -5px;
     bottom:16px;
@@ -144,6 +144,7 @@ span{
     background-color: #f2f2f2;
     font-family: "Lato-Regular";
     font-size: 12px;
+    text-overflow: ellipsis;
 }
 
 .width-940{
@@ -191,11 +192,13 @@ span{
     margin: 50px auto 0;
     font-family: "Lato-Regular";
     font-size:12px;
+    text-overflow: ellipsis;
 }
 
 .services-container p{
     font-weight: bold;
-    font-family: "Lato-Black"
+    font-family: "Lato-Black";
+    text-overflow: ellipsis;
 }
 
 .width-300{
@@ -303,6 +306,7 @@ span{
     font-size:30px;
     margin-left:10px;
     margin-bottom:0;
+    text-overflow: ellipsis;
 }
 
 .aboutus-section .high-text{
@@ -320,6 +324,7 @@ span{
     font-family:"Lato-Black";
     margin-top:12px;
     margin-bottom:0;
+    text-overflow: ellipsis;
 }
 
 .peopleDiv p{
@@ -329,6 +334,7 @@ span{
     margin:0;
     margin-top:8px;
     text-align:justify;
+    text-overflow: ellipsis;
 }
 
 .aboutus-section .container{
