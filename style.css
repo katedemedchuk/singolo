@@ -102,6 +102,7 @@ span{
 
 .chev:hover{
     cursor: pointer;
+    background-color: #fff;
 }
 
 .picForVertical{
@@ -145,6 +146,7 @@ span{
     font-family: "Lato-Regular";
     font-size: 12px;
     text-overflow: ellipsis;
+    text-align: justify 
 }
 
 .width-940{
@@ -193,18 +195,17 @@ span{
     font-family: "Lato-Regular";
     font-size:12px;
     text-overflow: ellipsis;
-
 }
 
 .services-container p{
     font-weight: bold;
     font-family: "Lato-Black";
     text-overflow: ellipsis;
-
 }
 
 .width-300{
     width:300px;
+    text-align: justify 
 }
 
 .services-section h2{
@@ -215,6 +216,12 @@ span{
     font-size: 30px;
     font-family: "Lato-Black";
     color: rgb(102, 109, 137);    
+}
+
+.lineForServices{
+    width:1020px;
+    height:6px;
+    background-color:white;
 }
 /* SERVICES SECTION END */
 /* PORTFOLIO HEADER START */
@@ -302,8 +309,8 @@ span{
     color: #666d89;
     padding: 59px 30px 65px 30px;
     text-overflow: ellipsis;
-
 }
+
 .aboutus-section h2{
     font-family: "Lato-Black";
     margin-top:0;
@@ -328,7 +335,8 @@ span{
     margin-top:12px;
     margin-bottom:0;
     text-overflow: ellipsis;
-
+    overflow: hidden;
+    text-align: justify;
 }
 
 .peopleDiv p{
@@ -366,6 +374,10 @@ span{
     cursor:pointer;
     margin-left: 0;
     margin-right: 8px;
+}
+
+.icons:hover{
+    background-color: lavender;
 }
 
 .aboutus-line{
@@ -407,6 +419,7 @@ span{
     flex-wrap: nowrap;
     align-self: auto;
     justify-content: space-evenly;
+   text-align: justify;
     }
 
 .inputs{
@@ -463,6 +476,9 @@ textarea::placeholder {
 }
 .rightContacts p {
     margin-top: 10px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .rightContacts{
@@ -475,6 +491,8 @@ textarea::placeholder {
     line-height: 21px;
     word-spacing: 1px;
     letter-spacing: 0.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .iconsContacts{
@@ -513,6 +531,11 @@ footer{
     height: 31px;
     margin-right:6px;
     color: #666d89;
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color: lavender;
 }
 
 .footerCopy{
