@@ -43,9 +43,10 @@ span{
 } 
 
 .header-grid nav ul { 
-    padding-left:70px;
+    padding-top:10px;
+    padding-left:90px;
     display: grid;
-    grid-template-columns: 66px 80px 95px 72px 98px;
+    grid-template-columns: 66px 84px 95px 71px 98px;
 }
 
 .header-grid ul li {
@@ -128,8 +129,7 @@ span{
 }
 
 .chevRight{
-    width: 110px
-   
+    width: 110px; 
 }  
 
 .slider-footer{
@@ -140,7 +140,7 @@ span{
 /* SLIDER END */
 /* SERVICES SECTION START */
 .services-section{
-    height: 500px;
+    height: 494px;
     color: #666d89; 
     background-color: #f2f2f2;
     font-family: "Lato-Regular";
@@ -189,7 +189,7 @@ span{
 .services-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 40px;
+    grid-row-gap: 20px;
     width:940px;
     margin: 50px auto 0;
     font-family: "Lato-Regular";
@@ -210,7 +210,7 @@ span{
 
 .services-section h2{
     margin:0 0 10px 10px;
-    padding: 45px 0 7px 27px;
+    padding: 59px 0 7px 29px;
     font-size: 30px;
     font-weight: bold;
     font-size: 30px;
@@ -373,7 +373,7 @@ span{
 .icons{
     cursor:pointer;
     margin-left: 0;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 .icons:hover{
@@ -427,9 +427,9 @@ span{
     margin-bottom:17px;
     font-size: "Lato-Light";
     font-size:12px;
-    width:619px;
+    width:617px;
     border-radius: 5px;
-    height:34px;
+    height:37px;
     text-indent: 12px;
     color:#fff;
     border-color:#d6564f;
@@ -445,6 +445,7 @@ textarea{
     border-color:#d6564f;
     max-width:700px;
     max-height:400px;
+    margin-top:0;
 }
  
 input::placeholder {
@@ -464,7 +465,7 @@ textarea::placeholder {
     text-align:center; 
     color:#f48c8f;
     border-color:#d6564f;
-    padding: 1px 6px;
+    padding: 8px 6px;
  }
  
 .rightContacts h3{
@@ -523,7 +524,7 @@ footer{
 }
 
 .footerIcons{
-    padding: 21px 31px 0px 0px;
+    padding: 34px 31px 0px 0px;
 }
 
 .icons{
