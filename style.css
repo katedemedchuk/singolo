@@ -97,9 +97,19 @@ span{
 
 
 .chev{
-    justify-self: center;
+    /* justify-self: center; */
     opacity: 100%;
 } 
+.chev-left{
+    padding-left: 41px;
+    justify-self: start;    
+}
+
+.chev-right{
+    padding-right: 40px;
+    justify-self: end;
+    opacity: 100%;
+}
 
 .chev:hover{
     cursor: pointer;
@@ -164,6 +174,7 @@ span{
 
 .float{
     float:left;
+    padding-top: 2px;
 }
 
 .margin{
@@ -182,16 +193,16 @@ span{
     font-size:18px;
     margin-top:0;
     font-weight:bold;
-    margin-bottom:15px;
+    margin-bottom:8px;
     color: rgb(102, 109, 137);    
 }
 
 .services-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
     width:940px;
-    margin: 50px auto 0;
+    margin: 45px auto 0;
     font-family: "Lato-Regular";
     font-size:12px;
     text-overflow: ellipsis;
@@ -373,7 +384,7 @@ span{
 .icons{
     cursor:pointer;
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 9px;
 }
 
 .icons:hover{
@@ -458,7 +469,7 @@ textarea::placeholder {
  
 .inputSub{
     background-color:#d6564f;
-    margin-bottom:29px;
+    margin-bottom:16px;
     font-size: "Lato-Regular";
     font-size:12px;
     border-radius: 5px;
@@ -521,20 +532,19 @@ footer{
     background-color:#2d303a; 
     color:#3c404f;
     width:1020px;
+    padding-bottom: 2px;
 }
 
 .footerIcons{
-    padding: 34px 31px 0px 0px;
+    padding: 22px 31px 0px 0px;
 }
 
-.icons{
-    width: 31px;
-    height: 31px;
-    margin-right:6px;
+footer .icons{
+    margin-left: -5px;
     color: #666d89;
 }
 
-.icons:hover{
+footer .icons:hover{
     cursor: pointer;
     background-color: lavender;
 }
