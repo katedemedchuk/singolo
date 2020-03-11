@@ -373,7 +373,7 @@ span{
 .icons{
     cursor:pointer;
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 9px;
 }
 
 .icons:hover{
@@ -458,7 +458,7 @@ textarea::placeholder {
  
 .inputSub{
     background-color:#d6564f;
-    margin-bottom:29px;
+    margin-bottom:16px;
     font-size: "Lato-Regular";
     font-size:12px;
     border-radius: 5px;
@@ -521,20 +521,21 @@ footer{
     background-color:#2d303a; 
     color:#3c404f;
     width:1020px;
+    padding-bottom: 2px;
 }
 
 .footerIcons{
-    padding: 34px 31px 0px 0px;
+    padding: 22px 31px 0px 0px;
 }
 
-.icons{
+footer .icons{
     width: 31px;
-    height: 31px;
-    margin-right:6px;
+    height: 31px;    
+    margin-left: -4px;
     color: #666d89;
 }
 
-.icons:hover{
+footer .icons:hover{
     cursor: pointer;
     background-color: lavender;
 }
