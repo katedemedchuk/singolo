@@ -146,7 +146,7 @@ span{
     font-family: "Lato-Regular";
     font-size: 12px;
     text-overflow: ellipsis;
-    text-align: justify 
+    text-align: justify;
 }
 
 .width-940{
@@ -317,6 +317,7 @@ span{
     font-size:30px;
     margin-left:10px;
     margin-bottom:0;
+    text-overflow: ellipsis;
 }
 
 .aboutus-section .high-text{
@@ -347,7 +348,6 @@ span{
     margin-top:8px;
     text-align:justify;
     text-overflow: ellipsis;
-
 }
 
 .aboutus-section .container{
