@@ -43,9 +43,10 @@ span{
 } 
 
 .header-grid nav ul { 
-    padding-left:70px;
+    padding-top:10px;
+    padding-left:90px;
     display: grid;
-    grid-template-columns: 66px 80px 95px 72px 98px;
+    grid-template-columns: 66px 84px 95px 71px 98px;
 }
 
 .header-grid ul li {
@@ -102,6 +103,7 @@ span{
 
 .chev:hover{
     cursor: pointer;
+    background-color: #fff;
 }
 
 .picForVertical{
@@ -127,8 +129,7 @@ span{
 }
 
 .chevRight{
-    width: 110px
-   
+    width: 110px; 
 }  
 
 .slider-footer{
@@ -139,12 +140,13 @@ span{
 /* SLIDER END */
 /* SERVICES SECTION START */
 .services-section{
-    height: 500px;
+    height: 494px;
     color: #666d89; 
     background-color: #f2f2f2;
     font-family: "Lato-Regular";
     font-size: 12px;
     text-overflow: ellipsis;
+    text-align: justify;
 }
 
 .width-940{
@@ -187,7 +189,7 @@ span{
 .services-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 40px;
+    grid-row-gap: 20px;
     width:940px;
     margin: 50px auto 0;
     font-family: "Lato-Regular";
@@ -203,16 +205,23 @@ span{
 
 .width-300{
     width:300px;
+    text-align: justify 
 }
 
 .services-section h2{
     margin:0 0 10px 10px;
-    padding: 45px 0 7px 27px;
+    padding: 59px 0 7px 29px;
     font-size: 30px;
     font-weight: bold;
     font-size: 30px;
     font-family: "Lato-Black";
     color: rgb(102, 109, 137);    
+}
+
+.lineForServices{
+    width:1020px;
+    height:6px;
+    background-color:white;
 }
 /* SERVICES SECTION END */
 /* PORTFOLIO HEADER START */
@@ -299,7 +308,9 @@ span{
     font-family: "Lato-Light";
     color: #666d89;
     padding: 59px 30px 65px 30px;
+    text-overflow: ellipsis;
 }
+
 .aboutus-section h2{
     font-family: "Lato-Black";
     margin-top:0;
@@ -325,6 +336,8 @@ span{
     margin-top:12px;
     margin-bottom:0;
     text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: justify;
 }
 
 .peopleDiv p{
@@ -360,7 +373,11 @@ span{
 .icons{
     cursor:pointer;
     margin-left: 0;
-    margin-right: 8px;
+    margin-right: 10px;
+}
+
+.icons:hover{
+    background-color: lavender;
 }
 
 .aboutus-line{
@@ -402,6 +419,7 @@ span{
     flex-wrap: nowrap;
     align-self: auto;
     justify-content: space-evenly;
+   text-align: justify;
     }
 
 .inputs{
@@ -409,9 +427,9 @@ span{
     margin-bottom:17px;
     font-size: "Lato-Light";
     font-size:12px;
-    width:619px;
+    width:617px;
     border-radius: 5px;
-    height:34px;
+    height:37px;
     text-indent: 12px;
     color:#fff;
     border-color:#d6564f;
@@ -427,6 +445,7 @@ textarea{
     border-color:#d6564f;
     max-width:700px;
     max-height:400px;
+    margin-top:0;
 }
  
 input::placeholder {
@@ -446,7 +465,7 @@ textarea::placeholder {
     text-align:center; 
     color:#f48c8f;
     border-color:#d6564f;
-    padding: 1px 6px;
+    padding: 8px 6px;
  }
  
 .rightContacts h3{
@@ -458,6 +477,9 @@ textarea::placeholder {
 }
 .rightContacts p {
     margin-top: 10px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .rightContacts{
@@ -470,6 +492,8 @@ textarea::placeholder {
     line-height: 21px;
     word-spacing: 1px;
     letter-spacing: 0.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .iconsContacts{
@@ -500,7 +524,7 @@ footer{
 }
 
 .footerIcons{
-    padding: 21px 31px 0px 0px;
+    padding: 34px 31px 0px 0px;
 }
 
 .icons{
@@ -508,6 +532,11 @@ footer{
     height: 31px;
     margin-right:6px;
     color: #666d89;
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color: lavender;
 }
 
 .footerCopy{
