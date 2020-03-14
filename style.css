@@ -170,6 +170,9 @@ span{
 
 .width-320{
     width: 320px;
+    text-overflow: ellipsis;
+    text-align: justify;
+    overflow: hidden;
 }
 
 .float{
@@ -206,6 +209,7 @@ span{
     font-family: "Lato-Regular";
     font-size:12px;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .services-container p{
@@ -216,7 +220,9 @@ span{
 
 .width-300{
     width:300px;
-    text-align: justify 
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .services-section h2{
@@ -320,6 +326,7 @@ span{
     color: #666d89;
     padding: 59px 30px 65px 30px;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .aboutus-section h2{
@@ -329,6 +336,7 @@ span{
     margin-left:10px;
     margin-bottom:0;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .aboutus-section .high-text{
@@ -349,6 +357,7 @@ span{
     text-overflow: ellipsis;
     overflow: hidden;
     text-align: justify;
+    white-space: nowrap;
 }
 
 .peopleDiv p{
