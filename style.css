@@ -33,13 +33,17 @@ span{
     color:#f06c64;
 }
 
+a {
+    color:#f1f1f2;
+} 
+
 .header-list a{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
     font-family: "Lato-Bold";
     cursor: pointer;
-    color:#f1f1f2;
+    /* color:#f1f1f2; */
 } 
 
 .header-grid nav ul { 
@@ -57,6 +61,10 @@ span{
 .header-grid a:hover { 
     text-decoration:none;
     color:#f06c64;
+ }
+
+.active-red-color{
+    color: #f06c64;
  }
 
  .header-grid li:not(:first-child)::before{
@@ -137,7 +145,9 @@ span{
     background-image: url('./assets/screen horizontal.png') ;
     background-repeat: no-repeat;
 }
-
+.hide{
+    display: none;
+}
 .chevRight{
     width: 110px; 
 }  
@@ -273,10 +283,10 @@ span{
     justify-content: flex-start;
 }
 
-.portfolio-header li{
+.portfolio-header-item{
     color: #666d89;
     padding: 2px 7px;
-    border:1px solid #666d89;
+    border:1px solid;
     border-radius: 5px;
     margin-right: 10px;
 }
@@ -284,7 +294,7 @@ span{
 .portfolio-header li:hover{
     border-color: white;
 }
-.portfolio-header a{
+.portfolio-header-a{
     text-decoration:none;
     color: #666d89;
     font-family:"Lato-Regular";
@@ -295,6 +305,11 @@ span{
 .portfolio-header a:hover{
     color:white;
     cursor: pointer;
+}
+
+.portfolio-active{
+    color: white;
+    border-color: white;
 }
 /* PORTFOLIO HEADER END */
 /* PORTFOLIO SECTION START */
@@ -318,7 +333,13 @@ span{
     background-color: #323746;
     height:5px;
 }
-/* PORTFOLIO SECTION START */
+
+.portfolio-active-border{
+    width: 210px;
+    border: 5px solid #F06C64;
+}
+
+/* PORTFOLIO SECTION END */
 /* ABOUT US SECTION START */
 .aboutus-section{
     background-color:#f2f2f2; 
