@@ -205,14 +205,14 @@
                 tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>              
             <div class="formContacts">
-                <form>
-                    <input type="text"  name="name" placeholder="Name(Required)" required class="inputs">
+                <form id="submit-form">
+                    <input id="name-input" type="text"  name="name" placeholder="Name(Required)" required class="inputs">
                     <br>
-                    <input type="email" name="email"  placeholder="Email(Required)" required class="inputs">
+                    <input id="email-input" type="email" name="email"  placeholder="Email(Required)" required class="inputs">
                     <br>
-                    <input type="text" name="subject"   placeholder="Subject" class="inputs">
+                    <input id="subject-input" type="text" name="subject"   placeholder="Subject" class="inputs">
                     <br>
-                    <textarea name="projectMessage" id="" cols="86" rows="13" placeholder="Describe your project in detail..."></textarea>
+                    <textarea name="projectMessage" id="description-input" cols="86" rows="13" placeholder="Describe your project in detail..."></textarea>
                     <br>
                     <input type="Submit" class="inputSub">
                 </form>
@@ -239,6 +239,12 @@
                         </div>
                     </div>
                 </div>
+             </div>
+             <div id="form-submit-message" class="hide">
+                <div>The letter was sent</div>  
+                <div id="subject-show"></div>
+                <div id="description-show"></div>
+                <div id="OK-button">OK</div>
              </div>
      
         </section>
