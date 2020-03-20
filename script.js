@@ -19,6 +19,15 @@ let portfolioNavClickListner = e =>{
     
     e.target.classList.add('portfolio-active')
     e.target.parentNode.classList.add('portfolio-active')
+
+    let items = document.getElementsByClassName("portfolio-container")[0].children
+    Array.from(items).forEach( e => {
+        let rand = Math.floor( Math.random()*100 )
+        e.style.order = rand        
+    })
+
+
+    console.log(items)
 }
 
 let shuffle = e => {
