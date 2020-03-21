@@ -85,14 +85,89 @@ a {
 }
 /* HEADER END */
 /* SLIDER START */
-.slider{
+
+.red-phones{
+    background-color:#f06c64;
     width:1020px;
     height: 592px;
     display: grid;
     grid-template-columns: 110px 1fr 1fr 110px;
     align-items: center;
 }
+.blue-phones{
+    width:1020px;
+    height: 592px;
+}
 
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.slider__control {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .5);
+}
+
+.slider__control:hover,
+.slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.slider__control_left {
+    left: 0;
+}
+
+.slider__control_right {
+    right: 0;
+}
+
+.slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slider__control_left::before {    
+    background-image: url("assets/chev-left-red.png");
+}
+
+.slider__control_right::before {    
+    background-image: url("assets/chev-right-red.png");
+}
+
+.slider__item>div {
+    font-size: 100px;
+    text-align: center;
+}
+
+/* ------------------------------ */
 .main{
     background-color:#f06c64; 
     min-height: 550px;
