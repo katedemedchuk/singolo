@@ -1,0 +1,196 @@
+@media all and (max-width: 375px) {
+    body {
+        width: 375px;
+        height: 4967px;
+    }
+    .header-grid {
+        width: 375px;
+        position: sticky;
+    }
+    .header-grid .singolo-logo {
+        padding-right: 70px;
+    }
+    .header-naw-list {
+        display: none;
+    }
+    .main .slider {
+        display: grid;
+        width: 374px;
+        height: 500px;
+    }
+    .slider {
+        width: 375px;
+        grid-template-columns: 43px 109px 178px 20px;
+        height: 500px;
+    }
+    .chev {
+        position: relative;
+    }
+    .chev-left {
+        padding-left: 7px;
+    }
+    .chev-right {
+        padding-right: 7px;
+    }
+    .phoneVertical img {
+        width: 88.3px;
+        height: 177.61px;
+    }
+    .iphoneHorizontal img {
+        width: 170px;
+        height: 90px;
+    }
+    .picForVertical {
+        width: 70px;
+        height: 100px;
+        position: absolute;
+        left: 12.22%;
+        right: 69.35%;
+        top: 19.83%;
+        bottom: 24.67%;
+    }
+    .picForHorizontal {
+        width: 100px;
+        height: 70px;
+        position: absolute;
+        left: 47.42%;
+        right: 19.93%;
+        top: 31.83%;
+        bottom: 36.83%;
+    }
+    .services-section {
+        height: 920px;
+        padding-left: 20px;
+    }
+    .services-section h2 {
+        padding: 27px 0 7px 29px;
+    }
+    .services-section .width-940 {
+        width: 308px;
+        padding-left: 10px;
+        margin-right: 22px;
+        margin-bottom: 20px;
+        padding-right: 65px;
+        margin-left: 10px;
+    }
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 320px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-bottom: 260px;
+    }
+    .margin {
+        margin-bottom: 13px;
+    }
+    .portfolio-section {
+        padding-bottom: 42px;
+    }
+    .portfolio-header {
+        padding-top: 42px;
+    }
+    .headerText {
+        width: 315px;
+        height: 96px;
+        margin-right: -4px;
+        margin-left: 0px;
+    }
+    .portfolio-container {
+        grid-template-columns: 151px 151px;
+        grid-template-rows: 128px 128px 128px 128px;
+        grid-gap: 13px;
+        height: 560px;
+        padding-top: 20px;
+    }
+    .portfolio-container img {
+        width: 151px;
+        height: 128px;
+    }
+    .high-text {
+        width: 320px;
+        padding-right: 10px;
+        margin-bottom: 0;
+    }
+    .aboutus-section {
+        padding-top: 33px;
+    }
+    .aboutus-section .container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .container .icons-container {
+        margin: 10px 0 10px 0;
+    }
+    /* FORM */
+    .form-section {
+        width: 360px;
+        margin-right: 10px;
+        padding-left: 9px;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    .form-section h1 {
+        padding-left: 30px;
+    }
+    .preForm {
+        width: 320px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-right: 20px;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    form {
+        width: 200px;
+    }
+    .inputs {
+        width: 315px;
+        height: 38px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    textarea {
+        width: 315px;
+        height: 159px;
+    }
+    .formContacts {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 320px;
+        padding: 0 30px 20px 30px;
+        margin-right: 10px;
+    }
+    .rightContacts {
+        font-size: 16px;
+        font-family: 'Lato';
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+        width: 320px;
+    }
+    .inputSub {
+        width: 315px;
+        height: 50px;
+        background: #FBC65F;
+        border-radius: 5px;
+        border: none;
+    }
+    .windowCloseButton {
+        display: none;
+    }
+    /* footer */
+    .footerIcons {
+        text-align: center;
+        margin-left: 110px;
+        margin-bottom: 10px;
+    }
+    .footerCopy {
+        display: none;
+    }
+}
