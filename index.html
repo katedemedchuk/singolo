@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
-    <link href="style.css"  rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="media.css" rel="stylesheet" media="(min-width: 380px) and (max-width:768px)">
+    <link href="media375.css" rel="stylesheet" media="all and (max-width:375px)">
     <link href="lato.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="header-grid general-page">
         <div>
@@ -14,50 +19,38 @@
         </div>
         <nav class="header-list">
             <ul id="header-naw-list">
-                <li><a href="#">home</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#home">home</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
-    </header>  
-    <div class="header-footer general-page"></div>     
+    </header>
+    <div class="header-footer general-page" id="home"></div>
     <main class="general-page">
-        <section class="slider">
-            <div class="slider__wrapper">
-                <div class="slider__item">
-                    <div class="red-phones">
-                        <div class="chev chev-left"></div>
-                        <div id="phone-v" class="phoneVertical phones frame1">
-                            <img src="assets/phone vertical-ex.png"> 
-                            <div class="picForVertical"></div>
-            
-                        </div>
-                        <div id="phone-h" class="iphoneHorizontal phones frame2">
-                            <img src="assets/iPhone Horizontal.png">
-                            <div class="picForHorizontal"></div>
-                        </div>
-                        <div class="chev chev-right"></div>            
-                    </div>                    
-                </div>
-                <div class="slider__item">                    
-                    <div class="blue-phones">
-                        <img src="./assets/blue_slide.jpg" alt="blue slide">
-                    </div>
-                </div>                
+        <section class="main slider">
+            <div class="chev chev-left">
+                <a><img src="assets/chev-left-red.png"></a>
             </div>
-            <a class="slider__control slider__control_left" href="#" role="button"></a>
-            <a class="slider__control slider__control_right" href="#" role="button"></a>
+            <div id="phone-v" class="phoneVertical phones frame1">
+                <img src="assets/phone vertical-ex.png">
+                <div class="picForVertical"></div>
+
+            </div>
+            <div id="phone-h" class="iphoneHorizontal phones frame2">
+                <img src="assets/iPhone Horizontal.png">
+                <div class="picForHorizontal"></div>
+            </div>
+            <div class="chev chev-right">
+                <a><img src="assets/chev-right-red.png"></a>
+            </div>
         </section>
-        <div class="slider-footer"> </div>  
+        <div class="slider-footer" id="services"> </div>
         <section class="services-section">
             <h2>Our Services</h2>
             <div class="width-940">
-                Furse dapibus, tellus ac cursus commodo, tortor mauris condimentum. 
-                Duis mollis, non commodo luctus, nisi erat porttitor ligula, 
-                eget lacinia odio sem nec elit. Furse dapibus, tellus ac cursus commodo, 
-                tortor mauris condimentum nibh.
+                Furse dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Furse dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </div>
             <div class="services-container">
                 <div class="width-320">
@@ -65,8 +58,7 @@
                     <div class="margin">
                         <p>Custom Design</p>
                         <div>
-                            Curabitur vestibulum eget mauris quis laoreet. 
-                            Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+                            Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
                         </div>
                     </div>
                 </div>
@@ -75,46 +67,37 @@
                     <div class="margin">
                         <p>Inovative Ideas</p>
                         <div>
-                            Quisque luctus. Quam eget molestie commodo, lacus purus curcus purus, 
-                            nec rutrum tellus dolor id lorem.
+                            Quisque luctus. Quam eget molestie commodo, lacus purus curcus purus, nec rutrum tellus dolor id lorem.
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div class="width-300">
                     <div class="float"><img src="assets/heart-icon.png"></div>
                     <div class="margin">
                         <p><b>Love Is The Answer</b></p>
                         <div>
-                            Nulla sed nunc et tortor luctus faucibus. 
-                            Morbi at aliquet turpis, et consequat felis. 
-                            Quisque condimentum.
+                            Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="width-320">
                     <div class="float"><img src="assets/phone-icon.png"></div>
                     <div class="margin">
                         <p>Responsive Layout</p>
                         <div>
-                            Sed porttitor placerat rhoncus. In at nunc tellus. 
-                            Maecenas blandit nunc ligula. Praesent elit leo.
+                            Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.
                         </div>
                     </div>
-                </div>   
+                </div>
                 <div class="width-320">
                     <div class="float"><img src="assets/bubble-icon.png"></div>
                     <div class="margin">
                         <p>24 / 7 Support</p>
                         <div>
-                            Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. 
-                            Nulla a sem erat. Pellentesque egestas venenatis lorem.
+                            Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.
                         </div>
                     </div>
                 </div>
-                                       
-                                           
-             
-                  
                 <div class="width-300">
                     <div class="float"><img src="assets/star-icon.png"></div>
                     <div class="margin">
@@ -123,15 +106,14 @@
                             Quisque hendrerut purus dapidus, ornare nibh vitae, viverra nibh
                         </div>
                     </div>
-                </div>   
+                </div>
             </div>
         </section>
         <div class="lineForServices"></div>
-        <section class="portfolio-header">
+        <section class="portfolio-header" id="portfolio">
             <h1>Portfolio</h1>
             <div class="headerText">
-                Duis mollis, est non commodo luctus, nisi erat porttitor 
-                ligula, eget lacinia odio sem nec elit.
+                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
             </div>
             <div class="navContainer">
                 <ul>
@@ -140,7 +122,7 @@
                     <li class="portfolio-header-item"><a class="portfolio-header-a">Graphic Design</a></li>
                     <li class="portfolio-header-item"><a class="portfolio-header-a">Artwork</a></li>
                 </ul>
-            </div>            
+            </div>
         </section>
         <section class="portfolio-section">
             <div class="portfolio-container">
@@ -158,40 +140,35 @@
                 <img src="assets/12.jpg">
             </div>
         </section>
-        <div class="lineBetweenMainFooter"></div>
-        <section class="aboutus-section">         
+        <div class="lineBetweenMainFooter" id="about"></div>
+        <section class="aboutus-section">
             <h2>About Us</h2>
             <p class="high-text">
-                Fusce dapibus, tellus ac cursus commodo, 
-                tortor mauris condimentum. Duis mollis, 
-                non commodo luctus, nisi erat porttitor ligula, 
-                eget lacinia odio sem nec elit. Fusce dapibus, 
-                tellus ac cursus commodo, tortor mauris condimentum nibh.
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
             </p>
             <div class="container">
-                <div  class="peopleDiv">
+                <div class="peopleDiv">
                     <img src="assets/photo1.png" class="photosPeople">
                     <h3>Adam Jensen</h3>
                     <p>
-                        Quisque luctus, quam eget molestie commodo, 
-                        lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                        Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
                     </p>
                     <div class="icons-container">
                         <a><img src="assets/Fb-icon.png" class="icons"></a>
-                        <a><img src="assets/google-icon.png"class="icons"></a>
-                        <a><img src="assets/twitter-icon.png"class="icons"></a>
-                        <a><img src="assets/link-icon.png"class="icons"></a>
+                        <a><img src="assets/google-icon.png" class="icons"></a>
+                        <a><img src="assets/twitter-icon.png" class="icons"></a>
+                        <a><img src="assets/link-icon.png" class="icons"></a>
                     </div>
                 </div>
                 <div class="peopleDiv">
                     <img src="assets/photo2.png" class="photosPeople">
-                     <h3>Desmond Miles</h3>
+                    <h3>Desmond Miles</h3>
                     <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultices velit.</p>
                     <div class="icons-container">
                         <a><img src="assets/Fb-icon.png" class="icons"></a>
-                        <a><img src="assets/google-icon.png"class="icons"></a>
-                        <a><img src="assets/twitter-icon.png"class="icons"></a>
-                        <a><img src="assets/link-icon.png"class="icons"></a>
+                        <a><img src="assets/google-icon.png" class="icons"></a>
+                        <a><img src="assets/twitter-icon.png" class="icons"></a>
+                        <a><img src="assets/link-icon.png" class="icons"></a>
                     </div>
                 </div>
                 <div class="peopleDiv">
@@ -200,9 +177,9 @@
                     <p>Nulla sed ninc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentrum.</p>
                     <div class="icons-container">
                         <a><img src="assets/Fb-icon.png" class="icons"></a>
-                        <a><img src="assets/google-icon.png"class="icons"></a>
-                        <a><img src="assets/twitter-icon.png"class="icons"></a>
-                        <a><img src="assets/link-icon.png"class="icons"></a>
+                        <a><img src="assets/google-icon.png" class="icons"></a>
+                        <a><img src="assets/twitter-icon.png" class="icons"></a>
+                        <a><img src="assets/link-icon.png" class="icons"></a>
                     </div>
                 </div>
             </div>
@@ -210,68 +187,74 @@
         <div class="aboutus-line"></div>
         <section class="form-section">
             <h1>Get a Quote</h1>
-            <p class="preForm">
-                Fusce dapibus, tellus ac cursus commodo, 
-                tortor mauris condimentum. Duis mollis, 
-                non commodo luctus, nisi erat porttitor ligula, 
-                eget lacinia odio sem nec elit. Fusce dapibus, 
-                tellus ac cursus commodo, tortor mauris condimentum nibh.
-            </p>              
+            <p class="preForm" id="contact">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </p>
             <div class="formContacts">
-                <form id="submit-form">
-                    <input id="name-input" type="text"  name="name" placeholder="Name(Required)" required class="inputs">
+                <form id="form">
+                    <input type="text" name="name" placeholder="Name(Required)" required class="inputs">
                     <br>
-                    <input id="email-input" type="email" name="email"  placeholder="Email(Required)" required class="inputs">
+                    <input type="email" name="email" placeholder="Email(Required)" required class="inputs">
                     <br>
-                    <input id="subject-input" type="text" name="subject"   placeholder="Subject" class="inputs">
+                    <input type="text" name="subject" placeholder="Subject" class="inputs">
                     <br>
-                    <textarea name="projectMessage" id="description-input" cols="86" rows="13" placeholder="Describe your project in detail..."></textarea>
+                    <textarea name="projectMessage" id="" cols="86" rows="13" placeholder="Describe your project in detail..."></textarea>
                     <br>
-                    <input type="Submit" class="inputSub">
+                    <input type="Submit" class="inputSub" href="#modalWindow">
+
                 </form>
                 <div class="rightContacts">
                     <h3>Contact Information</h3>
                     <p>
-                        Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. 
-                        Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
-                        Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, 
-                        et consequat felis.
-                    </p>                 
+                        Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
+                    </p>
                     <div class="iconsContacts">
                         <div>
-                            <img src="assets/location.png" title="location" alt="location" class="iconsContacts" >
-                            Elm St. 14/05 Lost City 
+                            <img src="assets/location.png" title="location" alt="location" class="iconsContacts"> Elm St. 14/05 Lost City
                         </div>
                         <div>
                             <img src="assets/phone.png" title="phone" alt="phone" class="iconsContacts">
                             <a href="tel:03528 331 86 35" class="text-muted">03528 331 86 35</a>
                         </div>
                         <div>
-                            <img src="assets/mail.png" title="mail" alt="mail"  class="iconsContacts">
+                            <img src="assets/mail.png" title="mail" alt="mail" class="iconsContacts">
                             <a href="mailto:info@singolo.com"> info@singolo.com</a>
                         </div>
                     </div>
                 </div>
-             </div>
-             <div id="form-submit-message" class="hide">
-                <div>The letter was sent</div>  
-                <div id="subject-show"></div>
-                <div id="description-show"></div>
-                <div id="OK-button">OK</div>
-             </div>
-     
+            </div>
+
         </section>
         <div class="LineAfterForm"></div>
     </main>
-    <footer class="general-page"> 
+    <footer class="general-page">
         <div class="footerCopy">&copy;Copyright 2013</div>
-              <div class="footerIcons">
-                 <a><img src="assets/Fb-icon.png" class="icons"></a>
-                 <a><img src="assets/google-icon.png"class="icons"></a>
-                 <a><img src="assets/twitter-icon.png"class="icons"></a>
-                 <a><img src="assets/link-icon.png"class="icons"></a>
-              </div>
-     </footer>    
-     <script src="script.js"></script>
+        <div class="footerIcons">
+            <a><img src="assets/Fb-icon.png" class="icons"></a>
+            <a><img src="assets/google-icon.png" class="icons"></a>
+            <a><img src="assets/twitter-icon.png" class="icons"></a>
+            <a><img src="assets/link-icon.png" class="icons"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+    <!-- modal window -->
+    <!-- <div id="modalWindow" class="modalWindow">
+<p class="windowStatus">The letter was sent</p>
+<hr>
+<p class="windowSubject">
+<span class="windowLead">Subject:</span>
+<span class="windowLeadSubject"></span>
+</p>
+<hr>
+<p class="windowMessage">
+<span>Description:</span>
+</p>
+<hr>
+</div>
+<button class="windowCloseButton">Ok</button>
+</div> -->
+
 </body>
+
 </html>
